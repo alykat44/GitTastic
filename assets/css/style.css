@@ -1,0 +1,102 @@
+/* {
+    box-sizing: border-box;
+  }
+  /* this keeps border and padding inside the box measurement */
+   */
+  
+  h1{
+      font-family: sans-serif;
+      font-size: 64px;
+      text-align: center;
+      color: #BDD3F1; 
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-style: italic
+  }
+  p{
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #F4F4F4; 
+  }
+  .textFormat{
+      font-family:sans-serif;
+      font-size: 22px;
+      color: #F4F4F4; 
+  }
+  
+  /*** 3.0 PAGE CONSTRUCTION ***/
+  body{
+      background-color: green;
+  }
+  
+  .borderThatFloats{
+    width: 100%;
+    height: 5px;
+    background-color: #BDD3F1; /* Light Blue */
+    margin-bottom: 10px;
+    clear: both;
+  }
+  
+  /*** 4.0 MAIN & BUTTONS ***/
+  #main-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .main-section {
+    float: left;
+    max-width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+  button{
+      margin: 10px;
+      padding: 7px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #921B20; /* Burgundy */
+      font-size: 18px;
+      background-color: #F4F4F4; /* Off White */
+      border-radius: 8px;
+      border: 3px solid #BDD3F1; /* Light Blue */
+    clear: both;
+  }
+  
+  
+  .sidebar {
+    float: right;
+    width: 25%;
+    padding: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  #addTheme{
+      margin: 10px;
+      padding: 7px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #921B20; 
+      font-size: 16px;
+      background-color: #F4F4F4; 
+      border-radius: 8px;
+      border: 3px solid #BDD3F1; 
+  }
+  input[type=text] {
+    width: 100%;
+    height: 25px;
+    padding: 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  
+  .search-item{
+    display:inline-block;
+  }
+  img {
+    vertical-align: text-top;
+    border: 3px solid #F4F4F4; 
+    border-radius: 8px;
+    margin: 10px;
+  }
