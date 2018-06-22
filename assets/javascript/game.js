@@ -58,16 +58,10 @@ $(document).on('click','.searchImage',function(){
 
 // Add button and new input
 
-    $("#addTheme").on("click", function(event) {
-    event.preventDefault();
-    var topic = $("#addtheme-input").val().trim().
-    console.log(trim)
-    topics.push(topic)
-    renderButtons(topics);
-
-    $("#addtheme-form")[0].reset();
-
-     
+$('#addTheme').on('click',function(){
+    var newSearch = $('input').eq(0).val();
+    searchArray.push(newSearch);
+    renderButtons(searchArray,'searchButton','#buttonsArea');
+    return false;
     
-    
-});
+})
