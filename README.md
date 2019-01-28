@@ -8,5 +8,6 @@ HTML, CSS, Javascript, JQuery, Giphy API
 
 
 
-#Website:
+# Website:
+ https://alykat44.github.io/GitTastic/
 
